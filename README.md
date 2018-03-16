@@ -1,3 +1,3 @@
-# Headline
+#  Django 文档翻译团队
 
-> An awesome project.
+> Django 官方文档翻译团队

@@ -1,2 +1,2 @@
-* [首页](markdown/home)
-* [FAQ](markdown/faq)
+* [首页](docs/home)
+* [FAQ](docs/faq)

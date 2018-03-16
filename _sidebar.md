@@ -9,4 +9,3 @@
 * [FAQ](docs/faq)
 * [联系我们](docs/contact)
 * [Chaneglog](docs/changelog)
-* [Hosted by Coding Pages](https://pages.coding.me)

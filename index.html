@@ -24,7 +24,14 @@
       subMaxLevel: 2,
       coverpage: true,
       themeColor:"#44B78B",
-      ga: 'UA-47834775-12'
+      ga: 'UA-47834775-12',
+      plugins: [
+      function (hook) {
+        hook.afterEach(function (html) {
+          return html + '<hr><p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>'
+        })
+      }
+    ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>

@@ -4,8 +4,8 @@
 
 > Django 文档中文翻译团队
 
-* Django 核心代码本地化
-* Django 文档本地化
+* 负责 Django 核心代码本地化
+* 负责 Django 文档本地化
 
 [Transifex](https://www.transifex.com/django/django-docs/)
-[开始翻译](#how-to-start)
+[开始翻译](docs/home#欢迎加入我们)

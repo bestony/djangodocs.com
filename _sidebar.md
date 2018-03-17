@@ -13,4 +13,5 @@
 * [FAQ](docs/faq)
 * [贡献文档](docs/contibute-this-docs)
 * [Chaneglog](docs/changelog)
+* [活跃成员列表](docs/team)
 * [联系我们](docs/contact)

@@ -4,7 +4,6 @@
 
 |昵称| Transifex ID | Telegram|
 |---|---|---|
-|Bestony |@bestony| @xiqingongzi|
 |UseLib|@uselib|@uselib|
 
 ## 审阅者

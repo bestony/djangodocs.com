@@ -8,5 +8,6 @@
     * [中文排版指北](docs/copywriting)
     * [reStructuredText 语法说明](docs/rst)
 * [FAQ](docs/faq)
-* [联系我们](docs/contact)
+* [贡献文档](docs/contibute-this-docs)
 * [Chaneglog](docs/changelog)
+* [联系我们](docs/contact)

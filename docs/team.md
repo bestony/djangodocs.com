@@ -10,7 +10,7 @@
 
 |昵称| Transifex ID | Telegram|
 |---|---|---|
-|陈李俊|@Stone_Chen| &nbsp; |
+|Dogify|@Stone_Chen|@Dogify|
 |Brian Wang|@singee| &nbsp; |
 
 

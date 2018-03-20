@@ -33,7 +33,7 @@
 8. 生成翻译文件，执行命令 `make translations`
 9. 创建符号链接，执行命令 `ln -s /home/dogify/django-doc/django-docs-translations/translations/zh_CN /home/dogify/django-doc/django-docs-translations/translations/zh_Hans`
 
-!> 1. 如果第 7 步无法拉取到最新翻译，可以尝试清空 `zh_Hans` 文件夹重试
+!> 1. 如果第 7 步无法拉取到最新翻译，可以尝试清空 `zh_Hans` 文件夹重试 </br>
 !> 2. 第 9 步只需执行一次。此步骤的原因是下面使用的 `Sphinx` 工具识别语言时，中文简体只能支持 zh_CN
 
 #### 将翻译合并到 django 目录中去

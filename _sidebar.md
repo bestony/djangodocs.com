@@ -7,6 +7,7 @@
     * [如何审阅已有翻译](docs/reviewer-guide)
     * [在本地部署 Django 官网及翻译教程](docs/local-preview)
     * [推送翻译到官方库](docs/push-translation)
+    * [术语表](docs/glossary)
 * 风格说明
     * [中文排版指北](docs/copywriting)
     * [reStructuredText 语法说明](docs/rst)

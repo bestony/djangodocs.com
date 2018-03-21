@@ -11,3 +11,4 @@
 3. [中文排版指北](docs/copywriting)
 4. [reStructuredText 语法说明](docs/rst)
 5. [如何翻译文档](docs/use-transifex-translate.md)
+6. [术语表](docs/glossary)

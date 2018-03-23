@@ -46,4 +46,23 @@
 4. cd 至 `./django/docs/`，即`/home/dogify/django-doc/django/docs/`下
 5. 接下来我们来创建符号链接，从而使得操作系统能够识别到对应的翻译 </br>`ln -s /path/to/django-docs-translations/translations /path/to/django/docs/locale`
 6. 在当前目录下生成中文页面，执行命令 `make html LANGUAGE=zh_CN`（windows 因为快捷方式无法代替软链，测试失败）
-7. docs 目录下会多出个名为 `_bulid` 的文件夹，用浏览器打开里面的 `index.html` 就可以在本地查看中文文档了
+7. docs 目录下会多出个名为 `_build` 的文件夹，用浏览器打开里面的 `index.html` 就可以在本地查看中文文档了
+
+### 一步拉取最新翻译生成中文文档
+
+!> 此步要求你先完成「本地部署中文文档」，以下过程目录路径为 `/home/dogify/django-doc/`
+
+1. 创建一个名为 `update_html.sh` 的文件
+2. 输入下面的代码
+3. 增加运行权限 `chmod a+x update_html.sh`
+4. 命令行输入 `./update_html.sh` 执行自动更新
+5. 打开 `/path/to/django/docs/_build/html/index.html` 查看更新后的文档
+
+``` sh
+#!/bin/sh
+cd django-docs-translations
+python3 manage_translations.py fetch -l zh_Hans
+make translations
+cd ../django/docs
+make html LANGUAGE=zh_CN
+```

@@ -7,6 +7,7 @@
   <meta name="description" content="Django 文档翻译团队">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
   <link rel="shortcut icon" href="favicon.ico">
 
 </head>
@@ -37,6 +38,17 @@
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
-
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: '44e1f73bf78ace8d33b9',
+      clientSecret: 'd404a4a59087992e28c93ee2da6b3bfd3c832dfb',
+      repo: 'djangodocs-china-talk',
+      owner: 'bestony',
+      admin: ['bestony'],
+      distractionFreeMode: false
+    })
+  </script>
 </body>
 </html>

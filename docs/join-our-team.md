@@ -26,6 +26,6 @@
 
 ![](https://postimg.aliavv.com/2018/a5edw.jpg)
 
-如果比较着急，可以加入对 Telegram 讨论组中，@Bestony 帮忙审核。
+如果比较着急，可以加入 QQ 群中，@Bestony 帮忙审核。
 
 
